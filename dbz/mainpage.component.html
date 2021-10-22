@@ -4,7 +4,7 @@
 </div>
 
 <h2>DBZ FORM</h2>
-<form #form="ngForm" (ngSumbit)="anadirpersonaje()" novalidate>
+<form #form="ngForm" (ngSubmit)="anadirpersonaje()" novalidate>
 <hr/>
 <p>Nombre:
 <input type="text" name="nombre" [(ngModel)]="nombrePersonaje">
@@ -12,6 +12,6 @@
 <p>poder:
     <input type="number" edad="poder" name="poder" [(ngModel)]="poderPersonaje">
     </p>
-<button type="submit" (click)="anadirpersonaje()">Añadir</button>
+<button type="submit">Añadir</button>
 </form>
 <hr/>
