@@ -1,0 +1,17 @@
+<div *ngFor="let item of personajes">
+    <h1>{{item["nombre"]}}</h1>
+    <h2>{{item['poder']}}</h2>
+</div>
+
+<h2>DBZ FORM</h2>
+<form #form="ngForm" (ngSumbit)="anadirpersonaje()" novalidate>
+<hr/>
+<p>Nombre:
+<input type="text" name="nombre" [(ngModel)]="nombrePersonaje">
+</p>
+<p>poder:
+    <input type="number" edad="poder" name="poder" [(ngModel)]="poderPersonaje">
+    </p>
+<button type="submit" (click)="anadirpersonaje()">Añadir</button>
+</form>
+<hr/>
