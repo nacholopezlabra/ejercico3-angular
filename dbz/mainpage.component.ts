@@ -24,9 +24,9 @@ poderPersonaje:number = 0;
 
   personajes: Personaje[] = [
     {nombre: 'goku', poder: 1},
-    {nombre: 'vergeta', poder: 2},
-    {nombre: 'Mrculian', poder: 3},
-    {nombre: 'Nappathepapa', poder: 4}
+    {nombre: 'veggeta', poder: 2},
+    {nombre: 'Mrsatan', poder: 3},
+    {nombre: 'Nappa', poder: 4}
   ];
 
 
